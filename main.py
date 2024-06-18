@@ -53,7 +53,7 @@ twitch_miner = TwitchChannelPointsMiner(
         ),
         discord=Discord(
             webhook_api="https://discord.com/api/webhooks/1238500912037761136/H1xGYc5_ljjIlKBNlxywRDPO6zcV3mr_X4V9NTm3w2dP7yaTOUcXMs2BFlEFHTZDxCCE",  # Discord Webhook URL
-            events=[Events.STREAMER_ONLINE, Events.STREAMER_OFFLINE, Events.Bonus_Claim, Events.Drop_Claim, Events.drop_Status
+            events=[Events.STREAMER_ONLINE, Events.STREAMER_OFFLINE, Events.BONUS_CLAIM, Events.DROP_CLAIM, Events.DROP_STATUS
                     ],                                  # Only these events will be sent to the chat
         ),
         matrix=Matrix(
